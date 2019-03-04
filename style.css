@@ -15,10 +15,18 @@ body {
     width: 960px;
   }
   
-  header, nav, section, aside, footer {
+  
+  header {
     background-color:#ebebeb;
-    padding: 15px;
+    padding: 25px;
     margin-top: 15px;
+    text-align: center;
+  }
+
+    nav {
+    background-color:#ebebeb;
+    padding: 25px;
+    margin-top: 5px;
     text-align: center;
   }
   
@@ -26,30 +34,65 @@ body {
     float: left;
     width:58%;
     margin-bottom: 15px;
-    height: 300px;
+    height: 390px;
+    background-color:#ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    margin-top: 15px;
+    text-align: center;
   }
+  
   aside {
     float: right;
-    height: 300px;
+    height: 250px;
     width: 34%;
+    border-top-width: 20px;
+    background-color:#ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    margin-top: 15px;
+    text-align: center;
   }
   
   footer {
     clear: both;
+    background-color:#ebebeb;
+    padding: 25px;
+    margin-top: 15px;
+    text-align: center;
   }
   
   article {
     background-color:#777;
     color:#ebebeb;
-    padding: 5px;
+    padding: 15px;
   }
     
-  h1, p {
-      display: inline-block;
-      color:#777;
-      background:#ebebeb;
-      font-size: 20px;
-      width:95%;
-      height:75px;
+  h1 {
+    display: inline-block;
+    color:#777;
+    background:#ebebeb;
+    font-size: 20px;
+    width:90%;
+    height:25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 25px;
+    }
+
+    p {
+        display: inline-block;
+        color:#777;
+        background:#ebebeb;
+        font-size: 20px;
+        width:90%;
+        height:25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 25px;
     }
     
